@@ -39,18 +39,18 @@ export default function Hero() {
 
       {/* Flower Layers (Parallax on Scroll) */}
       <div className="flower-layer flower-bottom-left">
-        <img src="/assets/flower_left.jpg" alt="Flor azul inferior izquierda" />
+        <img src={`${import.meta.env.BASE_URL}assets/flower_left.jpg`} alt="Flor azul inferior izquierda" />
       </div>
       <div className="flower-layer flower-top-right">
-        <img src="/assets/flower_right.jpg" alt="Flor azul superior derecha" />
+        <img src={`${import.meta.env.BASE_URL}assets/flower_right.jpg`} alt="Flor azul superior derecha" />
       </div>
 
       {/* Floating Petals */}
-      <div className="petal petal-1"><img src="/assets/petals.jpg" alt="Pétalo" /></div>
-      <div className="petal petal-2"><img src="/assets/petals.jpg" alt="Pétalo" /></div>
-      <div className="petal petal-3"><img src="/assets/petals.jpg" alt="Pétalo" /></div>
-      <div className="petal petal-4"><img src="/assets/petals.jpg" alt="Pétalo" /></div>
-      <div className="petal petal-5"><img src="/assets/petals.jpg" alt="Pétalo" /></div>
+      <div className="petal petal-1"><img src={`${import.meta.env.BASE_URL}assets/petals.jpg`} alt="Pétalo" /></div>
+      <div className="petal petal-2"><img src={`${import.meta.env.BASE_URL}assets/petals.jpg`} alt="Pétalo" /></div>
+      <div className="petal petal-3"><img src={`${import.meta.env.BASE_URL}assets/petals.jpg`} alt="Pétalo" /></div>
+      <div className="petal petal-4"><img src={`${import.meta.env.BASE_URL}assets/petals.jpg`} alt="Pétalo" /></div>
+      <div className="petal petal-5"><img src={`${import.meta.env.BASE_URL}assets/petals.jpg`} alt="Pétalo" /></div>
 
       {/* Center Hero Branding */}
       <div className="hero-content">

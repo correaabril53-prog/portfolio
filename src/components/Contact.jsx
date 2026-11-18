@@ -39,7 +39,7 @@ export default function Contact() {
         {/* Social and Action Buttons */}
         <div className="contact-action-group">
           {/* CV Button */}
-          <a href="/assets/media_1792450685383_dc74e478.pdf" className="contact-btn-item btn-cv" aria-label="Descargar Curriculum Vitae" title="Descargar CV">
+          <a href={`${import.meta.env.BASE_URL}assets/media_1792450685383_dc74e478.pdf`} className="contact-btn-item btn-cv" aria-label="Descargar Curriculum Vitae" title="Descargar CV">
             <svg className="contact-btn-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
               <polyline points="14 2 14 8 20 8"></polyline>

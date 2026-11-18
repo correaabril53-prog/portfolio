@@ -9,14 +9,14 @@ export default function About() {
         {/* Left Visual: Botanical Flower & Orbit */}
         <div className="about-visual">
           <div className="about-flower-wrap">
-            <img src="/assets/flower_about.jpg" alt="Flor azul resplandeciente - Sobre mí" className="about-flower-img" />
+            <img src={`${import.meta.env.BASE_URL}assets/flower_about.jpg`} alt="Flor azul resplandeciente - Sobre mí" className="about-flower-img" />
           </div>
           {/* Decorative Floating Petals */}
           <div className="petal about-petal-1">
-            <img src="/assets/petals.jpg" alt="Pétalo flotante" />
+            <img src={`${import.meta.env.BASE_URL}assets/petals.jpg`} alt="Pétalo flotante" />
           </div>
           <div className="petal about-petal-2">
-            <img src="/assets/petals.jpg" alt="Pétalo flotante" />
+            <img src={`${import.meta.env.BASE_URL}assets/petals.jpg`} alt="Pétalo flotante" />
           </div>
         </div>
 
